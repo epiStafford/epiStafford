@@ -12,6 +12,18 @@ body
 	margin-left: 30px;
 }
 
+/*Couleur des liens*/
+
+A:link /*pour les liens internet non vus*/
+{
+   color: black;
+}
+
+A:visited /*pour les liens déjà visités*/
+{
+   color: black;
+}
+
 #bloc_page
 {
 	width: auto;
@@ -24,9 +36,15 @@ body
 	font-size: larger;
 }
 
-#liste h1
+#liste article h1
 {
-	text-decoration: underline
+	text-decoration: underline;
+	color: #D90917;
+}
+
+#photos article
+{
+    width: 1450px;
 }
 
 section h1, footer h1, nav a
@@ -100,7 +118,7 @@ nav li
 
 nav a
 {
-    font-size: 1.3em;
+    font-size: 1.5em;
     color: black;
     padding-bottom: 3px;
     text-decoration: none;
