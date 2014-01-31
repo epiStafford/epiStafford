@@ -9,36 +9,91 @@ body
 	background-position: center;
 	background-size: cover;
 	color: black;
-	margin-left: 30px;
-}
-
-/*Couleur des liens*/
-
-A:link /*pour les liens internet non vus*/
-{
-   color: black;
-}
-
-A:visited /*pour les liens déjà visités*/
-{
-   color: black;
 }
 
 #bloc_page
 {
-	width: auto;
 	font-family: Arial, sans-serif;
-	margin: auto;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-#blog_page h4
+
+/*header*/
+
+header
+{
+
+}
+
+#titre_principal
+{
+
+}
+
+header h1
+{
+    font-family: 'Lobster Two', cursive, Arial, serif;
+    font-size: 2.5em;
+    font-weight: normal;
+	text-align: center;
+}
+
+header h2
+{
+    font-family: 'Lobster Two', Dayrom, serif;
+    font-size: 1.5em;
+    margin-top: 0px;
+    font-weight: normal;
+	text-align: center;
+}
+
+header h3
+{
+    margin-top: 0px;
+    font-weight: normal;
+	text-align: center;
+}
+
+/* Navigation */
+
+nav
+{
+    text-align: center;
+}
+
+nav ul
+{
+    list-style-type: none;
+}
+
+nav li
+{
+    display: inline-block;
+    margin-right: 15px;
+	margin-left: 20px;
+}
+
+nav a
+{
+    font-size: 1.5em;
+    color: black;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+/* Corps */
+
+h4
 {
 	font-size: 1.5em;
-}
-
-#trucSavoir article
-{
-	width: 1450px;
 }
 
 #liste article h4
@@ -78,116 +133,22 @@ A:visited /*pour les liens déjà visités*/
 	font-size: 1.5em;
 }
 
-section h1, footer h1, nav a
+/*Couleur des liens*/
+
+A:link /*pour les liens internet non vus*/
 {
-	font-weight: serif;
-	text-transform: uppercase;
+   color: black;
 }
 
-/*header*/
-
-header
+A:visited /*pour les liens déjà visités*/
 {
-	/*background: url('img/separateur.png') repeat-x bottom;*/
-}
-
-#titre_principal
-{
-    display: inline-block;
-}
-
-header h1
-{
-    font-family: 'Lobster Two', cursive, Arial, serif;
-    font-size: 2.5em;
-    font-weight: normal;
-	margin-left: 650px;
-}
-
-#logo, header h1
-{
-    display: inline-block;
-    margin-bottom: 0px;
-}
-
-header h2
-{
-    font-family: 'Lobster Two', Dayrom, serif;
-    font-size: 1.5em;
-    margin-top: 0px;
-    font-weight: normal;
-	margin-left: 670px;
-}
-
-header h3
-{
-    margin-top: 0px;
-    font-weight: normal;
-	margin-left: 570px;
-}
-
-/* Navigation */
-
-nav
-{
-    display: inline-block;
-    width: auto;
-    text-align: right;
-}
-
-nav ul
-{
-    list-style-type: none;
-}
-
-nav li
-{
-    display: inline-block;
-    margin-right: 15px;
-	margin-left: 20px;
-}
-
-nav a
-{
-    font-size: 1.5em;
-    color: black;
-    padding-bottom: 3px;
-    text-decoration: none;
-}
-
-nav a:hover
-{
-    color: #760001;
-    border-bottom: 3px solid #760001;
-}
-
-/* Corps */
-
-div
-{
-    display: inline-block;
-    vertical-align: top;
-    text-align: justify;
-}
-
-div article
-{
-    display: block;
-    vertical-align: top;
-    text-align: justify;
-}
-
-aside
-{
-    display: inline-block;
-    vertical-align: top;
-    text-align: justify;
+   color: black;
 }
 
 article
 {
-    width: 1350px;
-    margin-right: 25px;
+    text-align: justify;
+    margin-right: 20px;
 	margin-left: 20px;
 }
 
@@ -198,30 +159,17 @@ article p
 
 aside
 {
-    position: relative;
-    width: 235px;
 	background-color: black; 
     box-shadow: 0px 2px 5px #1c1a19;
     border-radius: 5px;
     padding: 10px;
     color: white;
     font-size: 0.9em;
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
 }
 
-#epita
-{
-    text-align: center;
-}
-
-#epita img
-{
-    border: 1px solid #181818;
-}
-
-aside img
-{
-    margin-right: 5px;
-}
 
 
 
