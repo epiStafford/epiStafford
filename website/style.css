@@ -96,6 +96,16 @@ h4
 	font-size: 1.5em;
 }
 
+#etudes table
+{
+    border-collapse: collapse;
+}
+
+#etudes td, th
+{
+    border: 1px solid black;
+}
+
 #liste article h4
 {
 	text-decoration: underline;
